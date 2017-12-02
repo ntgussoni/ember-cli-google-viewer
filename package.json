@@ -1,21 +1,26 @@
 {
   "name": "ember-cli-google-viewer",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.0-development",
+  "description": "Ember CLI Wrapper for Google Viewer's Iframe.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "google viewer"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Nicolas Torres <nicolas.torres.gussoni@gmail.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ntgussoni/ember-cli-google-viewer.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember try:each"
+    "test": "ember try:each",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "ember-cli-babel": "^6.6.0"
@@ -38,7 +43,8 @@
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.16.0",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "semantic-release": "^8.2.0"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
