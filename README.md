@@ -20,6 +20,37 @@
 
 * `ember install ember-cli-google-viewer`
 
+
+## Usage
+The usage is simple, you pass the URL of the file and you are good to go.
+
+```javascript
+  {{ember-cli-google-viewer
+    url='http://path-to-your-file/'
+  }}
+```
+
+If you wish, you can yield a loader that will be shown until the viewer finishes loading.
+
+```javascript
+  {{#ember-cli-google-viewer
+    url='http://path-to-your-file/'
+  }}
+    Loading...
+  {{/ember-cli-google-viewer}}
+```
+
+Additionally, you can call an action after the viewer loads
+
+```javascript
+  {{#ember-cli-google-viewer
+    url='http://path-to-your-file/'
+    onViewerLoad=(action "myAction")
+  }}
+    Loading...
+  {{/ember-cli-google-viewer}}
+```
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
