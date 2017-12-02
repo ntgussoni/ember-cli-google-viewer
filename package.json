@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-google-viewer",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Ember CLI Wrapper for Google Viewer's Iframe.",
   "keywords": [
     "ember-addon",
