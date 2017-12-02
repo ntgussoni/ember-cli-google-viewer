@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-google-viewer/components/ember-cli-google-viewer';
