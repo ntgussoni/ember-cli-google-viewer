@@ -24,17 +24,17 @@
 ## Usage
 The usage is simple, you pass the URL of the file and you are good to go.
 
-```javascript
+```html
   {{ember-cli-google-viewer
-    url='http://path-to-your-file/'
+    url="http://path-to-your-file/"
   }}
 ```
 
 If you wish, you can yield a loader that will be shown until the viewer finishes loading.
 
-```javascript
+```html
   {{#ember-cli-google-viewer
-    url='http://path-to-your-file/'
+    url="http://path-to-your-file/"
   }}
     Loading...
   {{/ember-cli-google-viewer}}
@@ -42,9 +42,9 @@ If you wish, you can yield a loader that will be shown until the viewer finishes
 
 Additionally, you can call an action after the viewer loads
 
-```javascript
+```html
   {{#ember-cli-google-viewer
-    url='http://path-to-your-file/'
+    url="http://path-to-your-file/"
     onViewerLoad=(action "myAction")
   }}
     Loading...
