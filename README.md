@@ -17,10 +17,17 @@
 [license-badge]: https://img.shields.io/npm/l/ember-cli-google-viewer.svg
 [license-badge-url]: LICENSE.md
 
-## Install addon
+An ember-cli addon to view documents using the google viewer.
 
-* `ember install ember-cli-google-viewer`
+[![Sample project][sample-project]][sample-project]
 
+[sample-project]: sample.gif
+
+## Installation
+
+```
+ember install ember-cli-google-viewer
+```
 
 ## Usage
 The usage is simple, you pass the URL of the file and you are good to go.
