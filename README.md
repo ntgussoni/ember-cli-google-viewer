@@ -17,11 +17,34 @@
 [license-badge]: https://img.shields.io/npm/l/ember-cli-google-viewer.svg
 [license-badge-url]: LICENSE.md
 
-An ember-cli addon to view documents using the google viewer.
+An ember-cli addon to view documents using the google viewer. Preview .JPEG, .PNG, .DOCX, .TXT, .XLSX, .PDF and more...
 
 [![Sample project][sample-project]][sample-project]
 
 [sample-project]: sample.gif
+
+## Supported filetypes
+
+```
+Image files (.JPEG, .PNG, .GIF, .TIFF, .BMP)
+Video files (WebM, .MPEG4, .3GPP, .MOV, .AVI, .MPEGPS, .WMV, .FLV)
+Text files (.TXT)
+Markup/Code (.CSS, .HTML, .PHP, .C, .CPP, .H, .HPP, .JS)
+Microsoft Word (.DOC and .DOCX)
+Microsoft Excel (.XLS and .XLSX)
+Microsoft PowerPoint (.PPT and .PPTX)
+Adobe Portable Document Format (.PDF)
+Apple Pages (.PAGES)
+Adobe Illustrator (.AI)
+Adobe Photoshop (.PSD)
+Tagged Image File Format (.TIFF)
+Autodesk AutoCad (.DXF)
+Scalable Vector Graphics (.SVG)
+PostScript (.EPS, .PS)
+TrueType (.TTF)
+XML Paper Specification (.XPS)
+Archive file types (.ZIP and .RAR)
+```
 
 ## Installation
 
