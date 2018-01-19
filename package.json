@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-google-viewer",
-  "version": "1.1.0",
-  "description": "Ember CLI Wrapper for Google Viewer's Iframe.",
+  "version": "1.1.1",
+  "description": "An ember-cli addon to view documents using the google viewer. Preview .JPEG, .PNG, .DOCX, .TXT, .XLSX, .PDF and more",
   "keywords": [
     "ember-addon",
     "google viewer"
