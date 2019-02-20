@@ -48,14 +48,14 @@ Archive file types (.ZIP and .RAR)
 
 ## Installation
 
-```
+```bash
 ember install ember-cli-google-viewer
 ```
 
 ## Usage
 The usage is simple, you pass the URL of the file and you are good to go.
 
-```html
+```handlebars
   {{ember-cli-google-viewer
     url="http://path-to-your-file/"
   }}
@@ -63,7 +63,7 @@ The usage is simple, you pass the URL of the file and you are good to go.
 
 If you wish, you can yield a loader that will be shown until the viewer finishes loading.
 
-```html
+```handlebars
   {{#ember-cli-google-viewer
     url="http://path-to-your-file/"
   }}
@@ -73,7 +73,7 @@ If you wish, you can yield a loader that will be shown until the viewer finishes
 
 Additionally, you can call an action after the viewer loads
 
-```html
+```handlebars
   {{#ember-cli-google-viewer
     url="http://path-to-your-file/"
     onViewerLoad=(action "myAction")
