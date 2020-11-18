@@ -60,7 +60,7 @@
     "eslint-plugin-node": "^6.0.1",
     "loader.js": "^4.2.3",
     "qunit-dom": "^0.6.2",
-    "semantic-release": "^8.2.3"
+    "semantic-release": "^17.2.3"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
